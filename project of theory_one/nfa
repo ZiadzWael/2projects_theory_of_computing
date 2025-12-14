@@ -1,0 +1,27 @@
+digraph {
+	rankdir=LR
+	start [shape=point]
+	start -> 8
+	8 -> 6 [label="ε"]
+	6 -> 0 [label="ε"]
+	0 -> 1 [label=a]
+	1 -> 2 [label="ε"]
+	2 -> 3 [label=b]
+	3 -> 7 [label="ε"]
+	7 -> 6 [label="ε"]
+	7 -> 9 [label="ε"]
+	6 -> 4 [label="ε"]
+	4 -> 5 [label=c]
+	5 -> 7 [label="ε"]
+	8 -> 9 [label="ε"]
+	0 [shape=circle]
+	1 [shape=circle]
+	2 [shape=circle]
+	3 [shape=circle]
+	4 [shape=circle]
+	5 [shape=circle]
+	6 [shape=circle]
+	7 [shape=circle]
+	8 [shape=circle]
+	9 [shape=doublecircle]
+}
